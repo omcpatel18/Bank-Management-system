@@ -1,0 +1,10 @@
+transactions =[]
+transaction_id_counter = 1
+balance = 0.0
+is_logged_in = False
+current_user = None
+Name = "om"
+Phone_Number = ""
+Email = ""
+Pin = ""
+id = ""
