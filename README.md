@@ -67,3 +67,28 @@ Relational integrity is maintained using primary and foreign keys.
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/your-username/bank-management-system.git
+
+### 2️⃣ Install Required Library
+pip install mysql-connector-python
+
+3️⃣ Setup MySQL Database
+
+Create a database (e.g., bank_db)
+
+Create required tables using provided SQL schema
+
+Update database credentials in the Python file
+
+connection = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="your_password",
+    database="bank_db"
+)
+
+4️⃣ Run the Application
+python main.py
+
+
+
+
