@@ -65,7 +65,6 @@ Relational integrity is maintained using primary and foreign keys.
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/your-username/bank-management-system.git
 
 ### 2️⃣ Install Required Library
